@@ -11,6 +11,7 @@ import { ProductDetailSection } from "./components/sections/ProductDetailSection
 import { PurchaseProcessSection } from "./components/sections/PurchaseProcessSection";
 import { ShowcaseSection } from "./components/sections/ShowcaseSection";
 import { InstagramVideosSection } from "./components/sections/InstagramVideosSection";
+import { PracticeSection } from "./components/sections/PracticeSection";
 import { SocialProofSection } from "./components/sections/SocialProofSection";
 import { WaterFlowSection } from "./components/sections/WaterFlowSection";
 import { useLenisSmoothScroll } from "./hooks/useLenisSmoothScroll";
@@ -33,6 +34,7 @@ export default function App() {
         <WaterFlowSection />
         <ProductDetailSection />
         <BenefitsSection />
+        <PracticeSection />
         <SocialProofSection />
         <InstagramVideosSection />
         <ModelsSection />
